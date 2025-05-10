@@ -131,7 +131,7 @@ async function getItems(page, url) {
   const res = [];
 
   let nextPageUrl =
-    "https://cd.ziroom.com/z/z1-u10-r0-p1-q1104450762960740353-a1104450762960740353/?p=x14&cp=0TO1100";
+    "https://cd.ziroom.com/z/z1-r2-q1105907815834140673-a1105907777449496577/?isOpen=1";
 
   while (nextPageUrl) {
     const r = await getItems(page, nextPageUrl);
